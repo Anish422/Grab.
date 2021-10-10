@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grab.</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<link rel="stylesheet" href="page.css">
+<body>
+   
+    <div class = "top">
+        <img class ="logo" id ="logo" src="./resources/Grab__.png" alt="">
+        <h1 class = "text">Gather Data With Ease.</h1>
+    </div>
+
+    <div class = "middle" id = "middle">
+        <form name="textForm">
+        <textarea class = "textBox" name="textBox" id="textBox" cols="30" rows="10"></textarea></form>
+        <form name="textForm2">
+            <textarea class = "textBox2" name="textBox2" id="textBox2" cols="30" rows="10"></textarea></form>
+    </div>
+
+    <div class = "buttons"> 
+        
+        <button class = startBTN id = startBTN onclick="changeButton();">Start</button>
+        <script src="page.js"></script>
+       <br> <button class = copyBTN id = "copyBTN" onclick="copy();">Copy</button>
+       <button class = downloadBTN id = "downloadBTN" onclick="makePDF();">Download⬇</button>
+    </div>
+    
+</body>
+</html>
